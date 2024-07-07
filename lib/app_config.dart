@@ -2,8 +2,8 @@ var this_year = DateTime.now().year.toString();
 
 class AppConfig {
   static String copyright_text =
-      "@ ActiveItZone " + this_year; //this shows in the splash screen
-  static String app_name = "Active eCommerce"; //this shows in the splash screen
+      "@ Amarshop " + this_year; //this shows in the splash screen
+  static String app_name = "Amarshop"; //this shows in the splash screen
 
   static String purchase_code =
       "purchase-key"; //enter your purchase code for the app from codecanyon
@@ -18,7 +18,7 @@ class AppConfig {
   //configure this
   static const bool HTTPS = true;
 
-  static const DOMAIN_PATH = "domain.com"; //localhost
+  static const DOMAIN_PATH = "amarshoop.com"; //localhost
   //do not configure these below
   static const String API_ENDPATH = "api/v2";
   static const String PROTOCOL = HTTPS ? "https://" : "http://";
